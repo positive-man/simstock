@@ -17,7 +17,7 @@ export const SimulationResultChart = (props) => {
     const [candleRatio, setCandleRatio] = useState()
 
     candles.forEach(candle => {
-        Object.assign(candle, {x: new Date(`${candle.date} ${candle.time}`)})
+        Object.assign(candle, {x: new Date(`${candle.date}T${candle.time}Z`)})
         Object.assign(candle, {y: candle.close})
     })
 
