@@ -1,3 +1,6 @@
+# SIMSTOCK
+SIMSTOCK은 주식 시스템 트레이딩 백테스트르 위한 트레이딩 시뮬레이터이다.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
